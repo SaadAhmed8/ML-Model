@@ -5,7 +5,11 @@ Created after attending the hands-on session **"Python for Data Science"** (AI A
 
 The goal of the project is to understand the full ML workflow:
 
-Load data → Explore → Clean → Visualize → Split → Build pipeline → Evaluate → Predict...
+```
+Load data → Explore → Clean → Visualize → Split → Build pipeline → Evaluate → Predict
+```
+
+---
 
 ## The two pipelines
 
@@ -18,9 +22,6 @@ Predicts the species of an iris flower (setosa, versicolor, virginica) from its 
 - Steps: load, explore, clean, visualize, train/test split, `Pipeline` (StandardScaler + Logistic Regression), evaluate, predict a new flower
 - Compares Logistic Regression, K-Nearest Neighbors and Decision Tree with 5-fold cross validation
 - **Result:** about **93% accuracy** on unseen test data (about 96% cross-validated)
-
-![Iris exploration](eda_plots.png)
-![Iris confusion matrix](confusion_matrix.png)
 
 ### 2. Advanced pipeline: Customer churn prediction
 **File:** `advancedpipeline.py`
@@ -37,11 +38,9 @@ Predicts which telecom customers are likely to **leave the company (churn)**, us
 - Saves the trained pipeline with `joblib` (`churn_model.joblib`) and reuses it to score a new customer
 - **Result:** about **71% accuracy** and **ROC AUC of about 0.75** on unseen test data
 
-![Churn exploration](adv_eda_plots.png)
-![Churn evaluation](adv_evaluation.png)
-![Churn feature importance](adv_feature_importance.png)
-
 **Key findings:** Monthly contracts, high monthly bills and many support calls increase the chance of churn. Two-year contracts and long tenure reduce it.
+
+---
 
 ## Project structure
 
