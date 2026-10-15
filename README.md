@@ -89,6 +89,7 @@ Each script prints the results of every step in the terminal, saves its graphs a
 ## Libraries used
 
 | Library | Purpose |
+|---|---|
 | NumPy | Fast numerical operations and random data generation |
 | Pandas | Loading, exploring and cleaning tabular data |
 | Matplotlib | Graphs and visualization |
