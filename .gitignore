@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+marks.png
+practice_numpy.py
+practicematplotlib.py
+practicepandas.py
+tempCodeRunnerFile.py
